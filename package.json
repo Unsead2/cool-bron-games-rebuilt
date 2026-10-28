@@ -1,0 +1,1 @@
+{"name":"cool-bron-games","version":"2.0.0","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","start":"python3 -m http.server 4173 --directory dist","check":"node --check dist/app.js && node --check dist/storage.js && node --check dist/games/flappybron.js && node --check dist/games/pacbron.js && node --check dist/games/fighter.js"}}
