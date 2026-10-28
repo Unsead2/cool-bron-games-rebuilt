@@ -19,3 +19,7 @@ This is a fresh implementation; original source and backend were not available. 
 `dist/app.js`: game shell and input. `dist/storage.js`: saves and unlocks. `dist/games/`: independent fixed-step game engines. `dist/assets/`: original SVG artwork.
 
 Independent fan project, not affiliated with LeBron James or the NBA.
+
+## Validation
+
+14 automated tests pass for collisions, safe gaps, maze reachability, combat, lifecycle, storage recovery, scores and purchases. Browser smoke checks covered all three launches, keyboard input, pause/resume, game-over/restart, score persistence and on-screen controls. Responsive layout checked at 390×844 and desktop. Real-device multi-touch, Safari and long-session performance have not been benchmarked. Legacy game and information-page URLs redirect to the new game shell.
